@@ -42,8 +42,9 @@ Contact Us
  #     # #    # # #   ## 
  #     # #    # # #    # 
 */
-
-
+ul.index-list>li{
+  margin: 12px 0px;
+}
 
 /*
   #####                       
@@ -54,6 +55,23 @@ Contact Us
  #     # #    # #    # #      
   #####  #    #  ####  #       
 */ 
+.card {
+  width: 18rem
+}
+.card-text {
+  min-height: 3.5rem;
+}
+span {
+  display: inline-block;
+}
+.curr {
+  transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
                                           
 /*
     #                                 #     #        
